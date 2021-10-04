@@ -1,4 +1,4 @@
-# variables
+# Variables
 set $myTerm "alacritty"
 set $myBrowser "brave"
 set $myFileManager "pcmanfm"
