@@ -1,6 +1,7 @@
 # variables
 set $myTerm "alacritty"
 set $myBrowser "brave"
+set $myFileManager "pcmanfm"
 
 set $mod Mod4
 
@@ -40,6 +41,9 @@ bindsym $mod+Return exec $myTerm
 
 # start a browser
 bindsym $mod+b exec $myBrowser
+
+# start a file manager
+bindsym $mod+Shift+e exec $myFileManager
 
 # kill focused window
 bindsym $mod+Shift+c kill
