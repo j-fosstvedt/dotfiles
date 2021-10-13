@@ -40,7 +40,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm i3 xwindow
 modules-center = mpd spotify
-modules-right = filesystem pulseaudio memory cpu date powermenu
+modules-right = xkeyboard pulseaudio memory cpu date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -80,7 +80,7 @@ label-indicator-margin = 1
 label-indicator-background = ${colors.secondary}
 label-indicator-underline = ${colors.secondary}
 
-[module/filesystem]
+[filesystem]
 type = internal/fs
 interval = 25
 
