@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_Ss:pacman\x20\x2dSs
+SETUVAR _fish_abbr_r:ranger
 SETUVAR _fish_abbr_s:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_syu:sudo\x20pacman\x20\x2dSyu
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
