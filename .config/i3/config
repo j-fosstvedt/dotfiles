@@ -190,7 +190,7 @@ bindsym $mod+r mode "resize"
 #}
 
 # Floating rules
-for_window [id=35651587] floating enable #Godot Run/Debug window
+for_window [instance="Godot_Engine" title="(DEBUG)"] floating enable #Godot Run/Debug window
 
 # Autostart
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh # Launch Polybar
