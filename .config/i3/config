@@ -50,6 +50,9 @@ bindsym $mod+b exec $myBrowser
 # start a file manager
 bindsym $mod+Shift+e exec $myFileManager
 
+# start emacs
+bindsym $mod+d exec "emacs"
+
 # kill focused window
 bindsym $mod+Shift+c kill
 
