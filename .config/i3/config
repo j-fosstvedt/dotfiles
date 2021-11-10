@@ -2,6 +2,7 @@
 for_window [class=".*"] border pixel 1
 gaps inner 8
 smart_gaps on
+smart_borders no_gaps
 
 # Variables
 set $myTerm "alacritty"
