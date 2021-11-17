@@ -197,6 +197,9 @@ bindsym $mod+r mode "resize"
 for_window [instance="Godot_Engine" title="(DEBUG)"] floating enable #Godot Run/Debug window
 
 # Autostart
+exec --no-startup-id xinput set-prop "ELAN0B00:00 04F3:31E9 Touchpad" "libinput Natural Scrolling Enabled" 1
+exec --no-startup-id xinput set-prop "ELAN0B00:00 04F3:31E9 Touchpad" "libinput Tapping Enabled" 1
+
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh # Launch Polybar
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id picom
