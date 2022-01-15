@@ -43,7 +43,8 @@ modules-center = mpd spotify
 modules-right = xkeyboard pulseaudio battery date powermenu
 
 tray-position = right
-tray-padding = 2
+tray-padding = 3
+wm-restack = i3
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
