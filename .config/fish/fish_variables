@@ -1,10 +1,12 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR __fish_initialized:3100
+SETUVAR QT_QPA_PLATFORMTHEME:qt5ct
+SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_Ss:pacman\x20\x2dSs
 SETUVAR _fish_abbr_r:ranger
 SETUVAR _fish_abbr_s:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_syu:sudo\x20pacman\x20\x2dSyu
+SETUVAR _fish_abbr_tdctl:timedatectl
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -33,4 +35,5 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/home/jorgen/\x2eemacs\x2ed/bin\x1e/home/jorgen/\x2elocal/bin
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/foo/bar/bin/\x1e/home/jorgen/\x2eemacs\x2ed/bin\x1e/home/jorgen/\x2elocal/bin
