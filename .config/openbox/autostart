@@ -1,0 +1,7 @@
+tint2 &
+picom &
+nitrogen --restore &
+setxkbmap -layout "us,no" -option "grp:alt_shift_toggle" &
+xinput set-prop "ELAN0B00:00 04F3:31E9 Touchpad" "libinput Natural Scrolling Enabled" 1 &
+xinput set-prop "ELAN0B00:00 04F3:31E9 Touchpad" "libinput Tapping Enabled" 1 &
+ap-applet &
