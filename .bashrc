@@ -3,7 +3,7 @@
 #
 
 export QT_QPA_PLATFORMTHEME=qt5ct
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 [[ $- != *i* ]] && return
 
