@@ -1,4 +1,5 @@
 xrandr --output DP-4 --mode 2560x1440 -r 165.00 --primary --right-of HDMI-0
+alacritty
 tint2 &
 picom &
 nitrogen --restore &
