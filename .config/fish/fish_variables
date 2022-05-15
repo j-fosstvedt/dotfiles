@@ -3,6 +3,7 @@
 SETUVAR QT_QPA_PLATFORMTHEME:qt5ct
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_Ss:pacman\x20\x2dSs
+SETUVAR _fish_abbr_lsal:ls\x20\x2dal
 SETUVAR _fish_abbr_r:ranger
 SETUVAR _fish_abbr_s:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_syu:sudo\x20pacman\x20\x2dSyu
