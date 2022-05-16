@@ -62,7 +62,7 @@ case $chosen in
         ;;
     $lock)
 		if [[ -f /usr/bin/betterlockscreen ]]; then
-			betterlockscreen -l
+			betterlockscreen -l dimpixel --off 300
 		elif [[ -f /usr/bin/i3lock ]]; then
 			i3lock
 		fi
