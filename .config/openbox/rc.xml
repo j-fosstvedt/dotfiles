@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc-Darkest</name>
+    <name>KvArcDark</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -255,6 +255,12 @@
     <keybind key="W-f">
       <action name="ToggleMaximize"/>
     </keybind>
+    <keybind key="W-S-t">
+      <action name="ToggleAlwaysOnTop"></action>
+    </keybind>
+    <keybind key="W-m">
+      <action name="Iconify"></action>
+    </keybind>
     <keybind key="A-Escape">
       <action name="Lower"/>
       <action name="FocusToBottom"/>
@@ -353,7 +359,6 @@
         <command>emacsclient -c -a 'emacs'</command>
       </action>
     </keybind>
-
     <!-- Rofi scripts -->
     <keybind key="W-S-p">
       <action name="Execute">
@@ -370,7 +375,6 @@
         <command>menu_quicklinks</command>
       </action>
     </keybind>
-
     <!-- Keybindings for brightness and sound control -->
     <keybind key="XF86AudioMute">
       <action name="Execute">
@@ -399,7 +403,6 @@
         <command>amixer -D pulse sset Master 10%+</command>
       </action>
     </keybind>
-
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
         <startupnotify>

@@ -1,10 +1,9 @@
+mpv --no-video .sounds/windows-xp-startup.mp3
 xrandr --output DP-4 --mode 2560x1440 -r 165.00 --primary --right-of HDMI-0
-alacritty
 tint2 &
 picom &
 nitrogen --restore &
 /usr/bin/emacs --daemon &
-syncthingtray &
 setxkbmap -layout "us,no" -option "grp:alt_shift_toggle" &
 xinput set-prop "ELAN0B00:00 04F3:31E9 Touchpad" "libinput Natural Scrolling Enabled" 1 &
 xinput set-prop "ELAN0B00:00 04F3:31E9 Touchpad" "libinput Tapping Enabled" 1 &

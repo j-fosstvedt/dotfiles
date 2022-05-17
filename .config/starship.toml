@@ -4,3 +4,6 @@ add_newline = false
 # Make prompt single line
 [line_break]
 disabled = true
+
+[git_status]
+disabled = true
