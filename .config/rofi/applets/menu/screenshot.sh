@@ -27,14 +27,14 @@ chosen="$(echo -e "$options" | $rofi_command -p 'App : scrot' -dmenu -selected-r
 case $chosen in
     $screen)
 		if [[ -f /usr/bin/scrot ]]; then
-			sleep 1; scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
+			sleep 1; scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir screenshots) ; viewnior $$(xdg-user-dir screenshots)/$f'
 		else
 			msg
 		fi
         ;;
     $area)
 		if [[ -f /usr/bin/scrot ]]; then
-			scrot -s 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
+			scrot -s '~/screenshots/Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir screenshots) ; viewnior $$(xdg-user-dir screenshots)/$f'
 		else
 			msg
 		fi

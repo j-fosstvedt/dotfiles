@@ -3,6 +3,7 @@
 configuration {
   show-icons:         true;
   icon-theme:         "Papirus";
+  modi: [window,run,ssh,drun];
 }
 @theme "/usr/share/rofi/themes/Arc-Dark.rasi"
 

@@ -336,7 +336,7 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>dmenu</name>
+          <name>rofi</name>
         </startupnotify>
         <command>rofi -show drun</command>
       </action>
@@ -373,6 +373,11 @@
     <keybind key="W-S-Return">
       <action name="Execute">
         <command>menu_quicklinks</command>
+      </action>
+    </keybind>
+    <keybind key="W-A-p">
+      <action name="Execute">
+        <command>bwmenu --auto-lock -1 -c 120</command>
       </action>
     </keybind>
     <!-- Keybindings for brightness and sound control -->
