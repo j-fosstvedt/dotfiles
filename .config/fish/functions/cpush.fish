@@ -1,3 +1,3 @@
-function cpush --wraps='config push dotfiles' --description 'alias cpush=config push dotfiles'
-  config push dotfiles $argv; 
+function cpush --wraps='config push' --description 'alias cpush=config push'
+  config push $argv; 
 end
