@@ -371,17 +371,17 @@
     <!-- Rofi scripts -->
     <keybind key="W-S-p">
       <action name="Execute">
-        <command>applet_powermenu</command>
+	<command>~/.config/rofi/bin/applet_powermenu</command>
       </action>
     </keybind>
     <keybind key="W-S-s">
       <action name="Execute">
-        <command>menu_screenshot</command>
+	<command>~/.config/rofi/bin/menu_screenshot</command>
       </action>
     </keybind>
     <keybind key="W-S-Return">
       <action name="Execute">
-        <command>menu_quicklinks</command>
+	<command>~/.config/rofi/bin/menu_quicklinks</command>
       </action>
     </keybind>
     <keybind key="W-A-p">
