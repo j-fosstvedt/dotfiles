@@ -1,4 +1,3 @@
-mpv --no-video .sounds/windows-xp-startup.mp3
 xrandr --output DP-4 --mode 2560x1440 -r 165.00 --primary --right-of HDMI-0
 tint2 &
 picom &
@@ -9,3 +8,4 @@ xinput set-prop "ELAN0B00:00 04F3:31E9 Touchpad" "libinput Natural Scrolling Ena
 xinput set-prop "ELAN0B00:00 04F3:31E9 Touchpad" "libinput Tapping Enabled" 1 &
 ap-applet &
 export DESKTOP_SESSION=Openbox
+mpv --no-video .sounds/windows-xp-startup.mp3
